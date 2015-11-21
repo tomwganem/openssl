@@ -8,6 +8,8 @@ include OpenSSLCookbook::Helpers
 
 use_inline_resources
 
+provides :openssl_x509
+
 def whyrun_supported?
   true
 end

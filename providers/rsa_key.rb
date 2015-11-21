@@ -8,6 +8,8 @@ include OpenSSLCookbook::Helpers
 
 use_inline_resources
 
+provides :openssl_rsa
+
 def whyrun_supported?
   true
 end

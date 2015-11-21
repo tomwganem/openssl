@@ -6,6 +6,8 @@
 
 include OpenSSLCookbook::Helpers
 
+provides :openssl_dhparams
+
 use_inline_resources
 
 def whyrun_supported?

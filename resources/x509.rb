@@ -2,6 +2,8 @@
 actions [:create]
 default_action :create
 
+provides :openssl_x509
+
 attribute :name,        kind_of: String, name_attribute: true
 attribute :owner,       kind_of: String
 attribute :group,       kind_of: String

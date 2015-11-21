@@ -2,6 +2,8 @@
 actions [:create]
 default_action :create
 
+provides :openssl_dhparams
+
 attribute :name,        kind_of: String, name_attribute: true
 attribute :key_length,  equal_to: [1024, 2048, 4096, 8192], default: 2048
 attribute :generator,   equal_to: [2, 5], default: 2
